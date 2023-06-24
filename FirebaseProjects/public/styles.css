@@ -1,0 +1,81 @@
+h1
+{
+    text-align: center;
+}
+.content-text
+{
+    font-size: 15px;
+    text-align: center;
+}
+
+.bedroom1-temp
+{
+    font-size: 15px;
+    text-align: center;
+    color:crimson;
+}
+
+.bedroom1-hum
+{
+    font-size: 15px;
+    text-align: center;
+    color:aqua;
+}
+
+.bedroom2-temp
+{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(122, 7, 30);
+}
+
+.bedroom2-hum
+{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(13, 31, 192);
+}
+
+.bathroom-temp
+{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(255, 0, 0);
+}
+
+.bathroom-hum
+{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(97, 12, 235);
+}
+
+.kitchen-temp
+{
+    font-size: 15px;
+    text-align: center;
+    color:brown;
+}
+
+.kitchen-hum
+{
+    font-size: 15px;
+    text-align: center;
+    color:rgb(65, 59, 150);
+}
+
+.kitchen-gas
+{
+    font-size: 15px;
+    text-align: center;
+    color:blueviolet;
+}
+.title-page
+{
+    font-size: 40px;
+    text-align: center;
+}
+.block
+{
+    float: center;
+}

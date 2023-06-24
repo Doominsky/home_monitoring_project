@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home Monitoring</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/8.8.1/firebase-database.js"></script>
+
+    <script>
+
+    const firebaseConfig = {
+  apiKey: "AIzaSyCKXf4s9w99Wn3VInFAcNh-tB4i1F3AinM",
+  authDomain: "espproject-d3e83.firebaseapp.com",
+  databaseURL: "https://espproject-d3e83-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "espproject-d3e83",
+  storageBucket: "espproject-d3e83.appspot.com",
+  messagingSenderId: "237234595627",
+  appId: "1:237234595627:web:a925c2372b94e40fce076e",
+  measurementId: "G-68T4NTJ9E3"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+    var database = firebase.database();
+</script>
+
+
+</head>
+<body>
+    
+    <h1>Live data feed:</h1> 
+    <p class="content-text">Kitchen Temperature (C): <span class="kitchen-temp" id="kitchen-temp"></span></p>
+    <p class="content-text">Kitchen Humidity (%): <span class="kitchen-hum" id="kitchen-hum"></span></p>
+    <p class="content-text">Kitchen Gas Concentration (%): <span class="kitchen-gas" id="kitchen-gas"></span></p>
+    <p class="content-text">Bedroom 1 Temperature (C): <span class="bedroom1-temp" id="bedroom1-temp"></span></p>
+    <p class="content-text">Bedroom 1 Humidity (%): <span class="bedroom1-hum" id="bedroom1-hum"></span></p>
+    <p class="content-text">Bedroom 2 Temperature (C): <span class="bedroom2-temp" id="bedroom2-temp"></span></p>
+    <p class="content-text">Bedroom 2 Humidity (%): <span class="bedroom2-hum" id="bedroom2-hum"></span></p>
+    <p class="content-text">Bathroom Temperature (C): <span class="bathroom-temp" id="bathroom-temp"></span></p>
+    <p class="content-text">Bathroom Humidity (%): <span class="bathroom-hum" id="bathroom-hum"></span></p>
+    <script src="app.js"></script>
+</body>
+</html>
